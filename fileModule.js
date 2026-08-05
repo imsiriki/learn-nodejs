@@ -4,6 +4,7 @@ fs.writeFile('heello.txt', 'Hello, World!',  (error) => {
 
     if (error) {
         console.log('error', error);
+        return;
     } else {
         console.log('file created successfully');
     }
